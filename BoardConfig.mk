@@ -77,7 +77,7 @@ TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/vivo/prebuilt/kernel
 
 TARGET_KERNEL_CONFIG := cyanogenmod_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/vivo
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-android-toolchain-eabi-12.04
 
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
